@@ -1,0 +1,47 @@
+.card>img {
+   height: 198px;
+   width: 198px;
+    transition: transform 0.5s ease; 
+}
+.card>img:hover {
+    transform: scale(1.1); 
+}
+li>a:hover{
+   font-size: 25px;
+   transition: all 0.3s ease;
+} 
+
+.mobile-section>img{
+   height: 220px;    
+}
+
+.grocery-section>img{
+    width: 73px;
+    height: 230px;
+}
+.card-body>button{
+    background-color:#cc0c39;
+     color: white;
+     border: transparent;
+     font-size: 15px;
+     font-weight: bold;
+}
+.card-body>a:hover{
+    color: orangered;
+}
+.fashion-card{
+    box-sizing: border-box;
+}
+
+.fashon{
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.fashon>img{
+    padding: 10px;
+width: 133px;
+height: 133px;
+}
+
